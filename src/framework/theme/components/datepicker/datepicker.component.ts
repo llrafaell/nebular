@@ -286,6 +286,7 @@ export abstract class NbBasePicker<D, T, P> extends NbDatepicker<T> {
     this.subscribeOnValueChange();
     this.writeQueue();
     this.patchWithInputs();
+    this.pickerRef.changeDetectorRef.markForCheck();
   }
 
   protected createPositionStrategy(): NbAdjustableConnectedPositionStrategy {
@@ -339,7 +340,7 @@ export abstract class NbBasePicker<D, T, P> extends NbDatepicker<T> {
     this.picker.max = this.max;
     this.picker.filter = this.filter;
     this.picker._cellComponent = this.dayCellComponent;
-    this.picker.monthCellComponent = this.monthCellComponent;
+    this.picker._monthCellComponent = this.monthCellComponent;
     this.picker._yearCellComponent = this.yearCellComponent;
     this.picker.size = this.size;
     this.picker.showNavigation = this.showNavigation;
