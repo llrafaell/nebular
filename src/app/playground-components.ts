@@ -236,6 +236,65 @@ export const PLAYGROUND_COMPONENTS: ComponentLink[] = [
     ],
   },
   {
+    path: 'button-group',
+    children: [
+      {
+        path: 'button-group-showcase.component',
+        link: '/button-group/button-group-showcase.component',
+        component: 'ButtonGroupShowcaseComponent',
+        name: 'Button Group Showcase',
+      },
+      {
+        path: 'button-group-multiple.component',
+        link: '/button-group/button-group-multiple.component',
+        component: 'ButtonGroupMultipleComponent',
+        name: 'Button Group Multiple',
+      },
+      {
+        path: 'button-group-sizes.component',
+        link: '/button-group/button-group-sizes.component',
+        component: 'ButtonGroupSizesComponent',
+        name: 'Button Group Sizes',
+      },
+      {
+        path: 'button-group-appearances.component',
+        link: '/button-group/button-group-appearances.component',
+        component: 'ButtonGroupAppearancesComponent',
+        name: 'Button Group Appearances',
+      },
+      {
+        path: 'button-group-shapes.component',
+        link: '/button-group/button-group-shapes.component',
+        component: 'ButtonGroupShapesComponent',
+        name: 'Button Group Shapes',
+      },
+      {
+        path: 'button-and-button-toggle-groups.component',
+        link: '/button-group/button-and-button-toggle-groups.component',
+        component: 'ButtonAndButtonToggleGroupsComponent',
+        name: 'Button And Button Toggle Groups',
+      },
+      {
+        path: 'button-group-interactive.component',
+        link: '/button-group/button-group-interactive.component',
+        component: 'ButtonGroupInteractiveComponent',
+        name: 'Button Group Interactive',
+      },
+      {
+        path: 'button-group-disabled.component',
+        link: '/button-group/button-group-disabled.component',
+        component: 'ButtonGroupDisabledComponent',
+        name: 'Button Group Disabled',
+      },
+      {
+        path: 'button-group-statuses.component',
+        link: '/button-group/button-group-statuses.component',
+        component: 'ButtonGroupStatusesComponent',
+        name: 'Button Group Statuses',
+      },
+    ],
+  },
+  {
     path: 'calendar',
     children: [
       {
@@ -1060,6 +1119,12 @@ export const PLAYGROUND_COMPONENTS: ComponentLink[] = [
         component: 'SelectTestComponent',
         name: 'Select Test',
       },
+      {
+        path: 'select-compare-with.component',
+        link: '/select/select-compare-with.component',
+        component: 'SelectCompareWithComponent',
+        name: 'Select Compare With',
+      },
     ],
   },
   {
@@ -1135,6 +1200,47 @@ export const PLAYGROUND_COMPONENTS: ComponentLink[] = [
         link: '/stepper/stepper-linear.component',
         component: 'StepperLinearComponent',
         name: 'Stepper Linear',
+      },
+    ],
+  },
+  {
+    path: 'tag',
+    children: [
+      {
+        path: 'tag-showcase.component',
+        link: '/tag/tag-showcase.component',
+        component: 'TagShowcaseComponent',
+        name: 'Tag Showcase',
+      },
+      {
+        path: 'tag-appearance.component',
+        link: '/tag/tag-appearance.component',
+        component: 'TagAppearanceComponent',
+        name: 'Tag Appearance',
+      },
+      {
+        path: 'tag-input.component',
+        link: '/tag/tag-input.component',
+        component: 'TagInputComponent',
+        name: 'Tag Input',
+      },
+      {
+        path: 'tag-input-with-autocomplete.component',
+        link: '/tag/tag-input-with-autocomplete.component',
+        component: 'TagInputWithAutocompleteComponent',
+        name: 'Tag Input With Autocomplete',
+      },
+      {
+        path: 'tag-status.component',
+        link: '/tag/tag-status.component',
+        component: 'TagStatusComponent',
+        name: 'Tag Status',
+      },
+      {
+        path: 'tag-removable.component',
+        link: '/tag/tag-removable.component',
+        component: 'TagRemovableComponent',
+        name: 'Tag Removable',
       },
     ],
   },

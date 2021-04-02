@@ -7,6 +7,7 @@
 @import '../../../../src/framework/theme/styles/global/components';
 @import '../../../../src/framework/theme/styles/global/typography/typography';
 @import '../../../../src/framework/bootstrap/styles/globals';
+@import './hs-form';
 
 @include nb-install() {
   @include nb-layout-theme();
@@ -24,11 +25,14 @@
   @include nb-option-list-theme();
   @include nb-input-theme();
   @include nb-overlay-theme();
+  @include nb-spinner-theme();
 
   @include nbd-common();
 
   // loading progress bar
   @include ngd-pace-theme();
+
+  @include hs-custom-form();
 };
 
 body {

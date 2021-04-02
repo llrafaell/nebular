@@ -20,6 +20,8 @@ import {
   NbButtonModule,
   NbSelectModule,
   NbInputModule,
+  NbDialogModule,
+  NbSpinnerModule,
 } from '@nebular/theme';
 
 import { NbEvaIconsModule } from '@nebular/eva-icons';
@@ -37,6 +39,8 @@ import {
   NgdDescriptionDirective,
   NgdSearchComponent,
   NgdEvaComponent,
+  NgdHubspotFormDialogComponent,
+  NgdForBusinessComponent,
 } from './components';
 
 import {
@@ -69,6 +73,8 @@ import { AkveoServicesBanner } from './components/hubspot-cta/akveo-services-ban
     NbSelectModule,
     NbInputModule,
     NbEvaIconsModule,
+    NbDialogModule,
+    NbSpinnerModule,
     RouterModule,
   ],
   declarations: [
@@ -85,6 +91,8 @@ import { AkveoServicesBanner } from './components/hubspot-cta/akveo-services-ban
     NgdSearchComponent,
     NgdEvaComponent,
     AkveoServicesBanner,
+    NgdHubspotFormDialogComponent,
+    NgdForBusinessComponent,
   ],
   exports: [
     CommonModule,
@@ -110,6 +118,7 @@ import { AkveoServicesBanner } from './components/hubspot-cta/akveo-services-ban
     NgdDescriptionDirective,
     NgdEvaComponent,
     AkveoServicesBanner,
+    NgdForBusinessComponent,
   ],
 })
 export class NgdThemeModule {

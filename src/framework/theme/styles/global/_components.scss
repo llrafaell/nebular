@@ -11,6 +11,7 @@
 @import '../../components/card/card.component.theme';
 @import '../../components/card/flip-card/flip-card.component.theme';
 @import '../../components/card/reveal-card/reveal-card.component.theme';
+@import '../../components/tag/tag.component.theme';
 @import '../../components/tabset/tabset.component.theme';
 @import '../../components/route-tabset/route-tabset.component.theme';
 @import '../../components/menu/menu.component.theme';
@@ -27,6 +28,8 @@
 @import '../../components/stepper/stepper.component.theme';
 @import '../../components/accordion/accordion.component.theme';
 @import '../../components/button/button.component.theme';
+@import '../../components/button-group/button-toggle.component.theme';
+@import '../../components/button-group/button-group.component.theme';
 @import '../../components/list/list.component.theme';
 @import '../../components/input/input.directive.theme';
 @import '../../components/cdk/overlay/overlay.theme';
@@ -69,6 +72,8 @@
   @include nb-chat-theme();
   @include nb-accordion-theme();
   @include nb-buttons-theme();
+  @include nb-buttons-toggle-theme();
+  @include nb-buttons-group-theme();
   @include nb-list-theme();
   @include nb-input-theme();
   @include nb-overlay-theme();
@@ -83,4 +88,5 @@
   @include nb-tree-grid-theme();
   @include nb-icon-theme();
   @include nb-form-field-theme();
+  @include nb-tags-theme();
 }
